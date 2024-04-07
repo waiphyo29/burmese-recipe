@@ -39,7 +39,9 @@ const DetailPage = () => {
             <ol>
             {
               recipe.CookingInstructions.split("\n").map((instruction,i) => 
-              <li key={i} className='mt-2'> {instruction}</li>
+              instruction.length > 1 && (
+                <li key={i} className='mt-2'>{instruction}</li>
+              )
               )
             }
             </ol>
