@@ -33,3 +33,17 @@
 .select{
     width: 200px;
 }
+
+@media(max-width: 768px){
+    .searchbox{
+        width: 60%;
+        right: 20%;
+    }
+}
+
+@media(max-width: 576px){
+    .searchbox{
+        width: 80%;
+        right: 10%;
+    }
+}
