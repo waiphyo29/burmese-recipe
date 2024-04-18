@@ -40,7 +40,7 @@ const Header = () => {
       }}
     >
       <Container>
-        <Navbar.Brand onClick={() => navigate('/')} style={{cursor: 'pointer'}}>
+        <Navbar.Brand onClick={() => navigate('/burmese-recipe/')} style={{cursor: 'pointer'}}>
           <Image src={Logo} className={classes.logo} />
         </Navbar.Brand>
         <Navbar.Toggle />
@@ -50,7 +50,7 @@ const Header = () => {
               as={Button}
               color='#6B240C' 
               size={30}
-              onClick={() => navigate('/favorite')}
+              onClick={() => navigate('/burmese-recipe/favorite')}
               style={{cursor:'pointer'}} />
               {favCount > 0 &&
                 <><Badge bg="secondary" style={{position: 'absolute',top: '-5%',left: '50%'}}>{favCount}</Badge>

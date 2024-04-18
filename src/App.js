@@ -9,10 +9,10 @@ import DetailPage from './page/DetailPage';
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Layout/>}>
+      <Route path='/burmese-recipe' element={<Layout/>}>
         <Route index element={<HomePage/>}/>
-        <Route path='/:recipeId' element={<DetailPage/>}/>
-        <Route path='/favorite' element={<FavoritePage/>}/>
+        <Route path=':recipeId' element={<DetailPage/>}/>
+        <Route path='favorite' element={<FavoritePage/>}/>
       </Route>
     </Routes>
   );

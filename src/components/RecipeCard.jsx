@@ -33,7 +33,7 @@ const RecipeCard = ({ recipeName, recipeId }) => {
     <Col>
       <Card className={classes.card}>
         <Link 
-        to={`/${recipeId}`}>
+        to={`/burmese-recipe/${recipeId}`}>
         <Card.Img
           variant="top"
           src={`${process.env.PUBLIC_URL}/img/${recipeName}.jpg`}
