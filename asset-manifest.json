@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/burmese-recipe/static/css/main.1cc9574f.css",
-    "main.js": "/burmese-recipe/static/js/main.c8fe4587.js",
+    "main.js": "/burmese-recipe/static/js/main.a161bef2.js",
     "static/media/burmese-recipe-logo.png": "/burmese-recipe/static/media/burmese-recipe-logo.7c5c055b3ae03d77bf13.png",
     "static/media/not found.png": "/burmese-recipe/static/media/not found.298b98203c3825c61303.png",
     "index.html": "/burmese-recipe/index.html",
     "main.1cc9574f.css.map": "/burmese-recipe/static/css/main.1cc9574f.css.map",
-    "main.c8fe4587.js.map": "/burmese-recipe/static/js/main.c8fe4587.js.map"
+    "main.a161bef2.js.map": "/burmese-recipe/static/js/main.a161bef2.js.map"
   },
   "entrypoints": [
     "static/css/main.1cc9574f.css",
-    "static/js/main.c8fe4587.js"
+    "static/js/main.a161bef2.js"
   ]
 }
